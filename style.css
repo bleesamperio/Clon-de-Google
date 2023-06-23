@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url('https://img.freepik.com/premium-photo/photo-camera-creative-concept-background-vintage-retro-photo-camera-colored-background-travel-vacation-photography-concept_90380-1017.jpg');*/
+    background-size: 100%
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+head{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: black;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://thenounproject.com/api/private/icons/1045055/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-logo img{
+    width: 500px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(18, 95, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px rgb(139, 139, 139);
+    border-color: rgb(159, 159, 159);
+    width: 550px;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://thenounproject.com/api/private/icons/3015873/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://thenounproject.com/api/private/icons/5805712/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-buttoms{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttoms div{
+    display: inline-block;
+}
+
+main .main-buttoms button{
+    height: 30px;
+    background-color: rgb(227, 227, 227);
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttoms button:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: 0 1px 1px #000001;
+    border-radius: 7px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: rgb(216, 216, 216);
+    border-top: 1px solid #000001;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: black;
+}
